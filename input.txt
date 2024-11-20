@@ -1,0 +1,33 @@
+## single line comment
+#$
+  multiline comment
+$#
+assume a = 78;
+assume b = 92;
+process checker(m, n) {
+    is (m > n) {
+        flash "m is greater than n";
+    } oris (m == n) {
+        flash "m is equal to n";
+    } or {
+        flash "m is smaller than n";
+    }
+    ret m - n;
+}
+pin welcome = "Welcome to International Space Station";
+block array = [7, 101, 12];
+loop (int c = 0; c < array.len(); c++) {
+    flash "Array:";
+    flash array[c];
+}
+main() {
+    bind <stdio.h>
+    check {
+        assume name = "Likhan";
+        flash welcome;
+        focus "%s", &name;
+        flash "Welcome, " + name;
+    } trap (diff err) {
+        flash "Error detected!";
+    }
+}

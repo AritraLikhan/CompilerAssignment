@@ -1,0 +1,65 @@
+Single Line Comment   -> ## single line comment
+IDENTIFIER  -> multiline
+IDENTIFIER  -> comment
+VARIABLE    -> assume
+IDENTIFIER  -> a
+VARIABLE    -> assume
+IDENTIFIER  -> b
+FUNCTION    -> process
+IDENTIFIER  -> checker
+IDENTIFIER  -> m
+IDENTIFIER  -> n
+IF          -> is
+IDENTIFIER  -> m
+IDENTIFIER  -> n
+PRINT       -> flash
+ELSE_IF     -> oris
+IDENTIFIER  -> m
+IDENTIFIER  -> n
+PRINT       -> flash
+ELSE        -> or
+PRINT       -> flash
+RETURN      -> ret
+IDENTIFIER  -> m
+IDENTIFIER  -> n
+CONST       -> pin
+IDENTIFIER  -> welcome
+ARRAY       -> block
+IDENTIFIER  -> array
+FOR         -> loop
+IDENTIFIER  -> int
+IDENTIFIER  -> c
+IDENTIFIER  -> c
+IDENTIFIER  -> array
+IDENTIFIER  -> len
+IDENTIFIER  -> c
+PRINT       -> flash
+PRINT       -> flash
+IDENTIFIER  -> array
+IDENTIFIER  -> c
+IDENTIFIER  -> main
+INCLUDE     -> bind
+IDENTIFIER  -> stdio
+IDENTIFIER  -> h
+TRY         -> check
+VARIABLE    -> assume
+IDENTIFIER  -> name
+PRINT       -> flash
+IDENTIFIER  -> welcome
+SCANF       -> focus
+IDENTIFIER  -> name
+PRINT       -> flash
+IDENTIFIER  -> name
+CATCH       -> trap
+EXCEPTION   -> diff
+IDENTIFIER  -> err
+PRINT       -> flash
+Keywords: 24
+Identifiers: 31
+Integers: 6
+Floats: 0
+Strings: 9
+VStrings: 0
+Operators: 17
+Delimiters: 57
+Errors: 177
